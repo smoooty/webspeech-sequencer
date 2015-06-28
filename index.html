@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Web Speech API Onomatopoeia Sequencer</title>
+    <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <style>
+    body{
+    	font-family: 'Slabo 27px', serif;
+    }
+    .selected{
+    	background-color: #ffb9b0;
+    }
+    .selected2{
+    	background-color: red;
+    }
+    h1{
+    	color:#ffccb0;
+    }
+    strong{
+    	color:#ffccb0;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <h1>Web Speech API Onomatopoeia Sequencer</h1>
+
+      <div class="boom" id="boom">boom</div>
+      <div class="chicka" id="chicka">chicka</div>
+      <div class="bow" id="bow">bow</div>
+      <div class="wow" id="wow">wow</div>
+      <div class="dirnt" id="dirnt">dirnt</div>
+      <div class="gaga" id="gada">gada</div>
+      <div class="fillip" id="fillip">fillip</div>
+      <div class="kra" id="kra">kra</div>
+      <div class="ka" id="ka">ka</div>
+      <div class="neow" id="neow">neow</div>
+      <div class="pah" id="pah">pah</div>
+      <div class="ra" id="ra">ra</div>
+      <div class="tom" id="tom">tom</div>
+      <div class="wah" id="wah">wah</div>
+      <div class="umpa" id="umpa">umpa</div>
+
+      <!--unfortunately web speech api doesn't seen to support two voices speaking at the same times
+      <p>voice 2</p>
+      <div class="boom2" id="boom2">boom</div>
+      <div class="chicka2" id="chicka2">chicka</div>
+      <div class="bow2" id="bow2">bow</div>
+      <div class="wow2" id="wow2">wow</div>
+      <div class="dirnt2" id="dirnt2">dirnt</div>
+      <div class="gaga2" id="gada2">gada</div>
+      <div class="fillip2" id="fillip2">fillip</div>
+      <div class="kra2" id="kra2">kra</div>
+      <div class="ka2" id="ka2">ka</div>
+      <div class="neow2" id="neow2">neow</div>
+      <div class="pah2" id="pah2">pah</div>
+      <div class="ra2" id="ra2">ra</div>
+      <div class="tom2" id="tom2">tom</div>
+      <div class="wah2" id="wah2">wah</div>
+      <div class="umpa2" id="umpa2">umpa</div>-->
+      
+      <p id="msg"></p>
+    </div>
+    <script type="text/javascript" src="http://cdn.tonejs.org/latest/Tone.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/index.js"></script>  
+  </body>
+</html>
